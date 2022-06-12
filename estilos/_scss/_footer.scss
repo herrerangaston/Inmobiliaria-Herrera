@@ -1,0 +1,19 @@
+@import "variables";
+footer{
+    padding: 20px 0;
+    text-align: center;
+    color: $color1;
+    p{
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    a{
+        font-size: 30px;
+        color: $color1;
+        &:hover{
+            color: $color1;
+        }
+    }
+}
+

@@ -1,0 +1,22 @@
+@import "variables";
+.navbar{
+    background-color: $color1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 05);
+    min-height: 100px;
+    .brand{
+        color: $color2;
+    }
+    .toggler{
+        font-size: 40px;
+        &:focus{
+            outline: none;
+        }
+    }
+}
+.nav-link{
+    color: $color1;
+    text-transform: uppercase;
+    &:hover{
+        color: $color2;
+    }
+}
